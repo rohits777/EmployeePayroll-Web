@@ -7,22 +7,26 @@
     margin: 0;
     height: 100%;
   }
+  .head1{
+    padding-left: 10px;
+  }
   .header {
     padding: 15px 0;
-    background-color: #fff;
+    background-color: rgb(206, 204, 204);
   }
   .header-content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start
     align-items: center;
     border: 0px solid green;
   }
   .logo-content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     border: 0px solid green;
+    padding-left: 50px;
     width: 80%;
     size: 10%;
   }
@@ -116,4 +120,28 @@
     letter-spacing: 0px;
     color: #42515f;
     background-color: transparent;
+  }
+  .button {
+    font-size: 20px;
+    font-family: Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    opacity: 1;
+    background: transparent;
+    border: none;
+    font-weight: 400;
+    min-width: 140px;
+    padding: 7px;
+    border: 1px solid #707070;
+    cursor: pointer;
+  }
+  
+  .submitButton {
+    border: none;
+    background: #f5f5f5;
+    margin-right: 30px;
+  }
+  .cancelButton {
+    text-decoration: none;
+    text-align: center;
   }
